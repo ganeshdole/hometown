@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: red;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1d3557;
+}
+div {
+  margin: 0;
+  padding: 0;
+}
+img {
+}
+/* h1,
+h2 {
+  margin: 0;
+} */
+.main {
+  height: 343px;
+  background-image: url("images/Panvel.jpeg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  color: white;
+  background-color: #1d3557;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-bottom: 6px;
+}
+
+.main-sub-title {
+  margin-top: 6px;
+  color: white;
+  background: #457b9d;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 343px;
+  background: wheat;
+}
+
+/* .activity {
+  display: flex;
+}
+.activity-card {
+  margin: 30px 100px;
+  width: 200px;
+}
+
+.activity-card-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.activity-card-summary {
+  font-weight: 400;
+}
+*/
+
+.activity {
+  display: flex;
+  justify-content: space-between;
+}
+.activity-card {
+  margin: 0px 50px;
+  width: 200px;
+}
+
+.activity-card-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.activity-card-summary {
+  font-weight: 400;
+}
+
+.guide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 394px;
+}
+.guide-card {
+  display: flex;
+  padding: 15px 30px;
+  border-bottom: 5px solid darkblue;
+  border-radius: 30px;
+  background-color: #a8dadc;
+  box-shadow: 0px 0px 3px darkblue;
+}
+.guide-image {
+  height: 200px;
+  border-radius: 10px;
+}
+.guide-info {
+  width: 300px;
+  margin: 0px 30px;
+}
+.guide-card-summary {
+  font-weight: 400;
+}
+
+.guide-name {
+  font-weight: 400;
+}
